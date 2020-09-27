@@ -1,0 +1,72 @@
+
+.game {
+    
+    max-width: 500px;
+}
+
+.inside_form {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 100px;
+}
+
+#diff {
+    max-width: 100px;
+}
+
+.box {
+    border: 2px solid grey;
+    border-radius: 5%;
+    padding: 0;
+    margin: 5px;
+    font-size: 10px;
+}
+
+.box:hover {
+    cursor: pointer;
+}
+
+
+
+.leaderboard {
+    position: relative;
+    border: 3px solid #007bff;
+    border-radius: 10px;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    background-color: #007bff;
+    color: white;
+    margin: 0 auto;
+    padding: 0;
+    
+}
+
+.leaderboard > .players {
+    position: relative;
+    border: 4px solid #007bff;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    width: 100px;
+}
+
+.leaderboard > .score {
+    position: relative;
+    top: -22px;
+}
+
+#player_you {
+    left: -80px;
+    top: 5px;
+}
+#player_comp {
+    right: -70px;
+    top: -50px;
+}
+
+.game_btn {
+    width: 110px;
+}
